@@ -12,7 +12,6 @@
 
 <a href="mailto:anferomol@pm.me"><img src="https://img.shields.io/badge/ProtonMail-anferomol@pm.me-2C6A5F?style=for-the-badge&logo=protonmail&logoColor=F3E6CC&labelColor=081114" /></a>
 <a href="https://github.com/Anferomol"><img src="https://img.shields.io/github/followers/Anferomol?label=Followers&style=for-the-badge&logo=github&logoColor=F3E6CC&color=D4914F&labelColor=081114" /></a>
-<img src="https://komarev.com/ghpvc/?username=Anferomol&label=Profile%20views&color=6F9A7A&style=for-the-badge&labelColor=081114" />
 
 </div>
 
@@ -67,10 +66,6 @@ const anferomol = {
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Anferomol&hide_border=true&background=0b1619&ring=2c6a5f&fire=d4914f&currStreakLabel=d4914f&sideLabels=c9d6cc&currStreakNum=f3e6cc&sideNums=f3e6cc&dates=5f7d76&stroke=1b3d3d" />
   <img width="660" src="https://streak-stats.demolab.com?user=Anferomol&hide_border=true&background=f7f1e3&ring=2c6a5f&fire=b8743a&currStreakLabel=b8743a&sideLabels=1b3d3d&currStreakNum=1b3d3d&sideNums=1b3d3d&dates=5f7d76&stroke=c9d6cc" alt="GitHub streak" />
 </picture>
-
-<br/><br/>
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Anferomol&bg_color=0b1619&color=c9d6cc&line=d4914f&point=f3e6cc&area=true&area_color=2c6a5f&hide_border=true&radius=12" alt="Contribution graph" />
 
 </div>
 
