@@ -94,7 +94,7 @@
     <text y="364" class="s" style="animation-delay:4.4s"><tspan x="46" class="key">learning</tspan><tspan class="pn">:</tspan><tspan x="160" class="pn">[</tspan><tspan class="str">"new languages"</tspan><tspan class="pn">, </tspan><tspan class="str">"better code"</tspan><tspan class="pn">],</tspan></text>
     <text y="384" class="s" style="animation-delay:4.55s"><tspan x="46" class="key">lookingFor</tspan><tspan class="pn">:</tspan><tspan x="160" class="str">"Good ideas to build together 🔥"</tspan><tspan class="pn">,</tspan></text>
     <text y="404" class="s" style="animation-delay:4.7s"><tspan x="46" class="key">mindset</tspan><tspan class="pn">:</tspan><tspan x="160" class="str">"I'm on the way 🌱"</tspan><tspan class="pn">,</tspan></text>
-    <text y="424" class="s" style="animation-delay:4.85s"><tspan x="46" class="fn">collaborate</tspan><tspan class="pn">:</tspan><tspan x="160" class="pn">() </tspan><tspan class="kw">=&gt;</tspan><tspan class="id"> mail</tspan><tspan class="pn">(</tspan><tspan class="str">"anferomol@pm.me"</tspan><tspan class="pn">),</tspan></text>
+    <text y="424" class="s" style="animation-delay:4.85s"><tspan x="46" class="fn">collaborate</tspan><tspan class="pn">:</tspan><tspan x="160" class="pn">() </tspan><tspan class="kw">=&gt;</tspan><tspan class="id"> mail</tspan><tspan class="pn">(</tspan><tspan class="str">"anferomol@protonmail.com"</tspan><tspan class="pn">),</tspan></text>
     <text y="444" class="s" style="animation-delay:5s"><tspan x="28" class="pn">};</tspan></text>
 
     <!-- 3 · run collaborate() -->
@@ -109,7 +109,7 @@
         <text x="50" y="494" class="m">opening a channel…</text>
       </g>
     </g>
-    <text y="494" class="s" style="animation-delay:8.9s"><tspan x="28" class="ok">✔</tspan><tspan x="50" class="v">Ready to build something together → </tspan><tspan class="p">anferomol@pm.me</tspan></text>
+    <text y="494" class="s" style="animation-delay:8.9s"><tspan x="28" class="ok">✔</tspan><tspan x="50" class="v">Ready to build something together → </tspan><tspan class="p">anferomol@protonmail.com</tspan></text>
 
     <!-- idle prompt -->
     <g class="s" style="animation-delay:9.4s">
