@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none">
+  <defs>
+    <!-- Palette (from logo): night #081114 · deep teal #1b3d3d · teal #2c6a5f · sage #6f9a7a · cream #f3e6cc · copper #d4914f -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#081114"/>
+      <stop offset="1" stop-color="#0d1c1f"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f3e6cc"/>
+      <stop offset="0.5" stop-color="#f7d9a8"/>
+      <stop offset="1" stop-color="#d4914f"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.4 0; 0.4 0; -0.4 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d4914f" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#d4914f"/>
+      <stop offset="1" stop-color="#d4914f" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8a868"/>
+      <stop offset="1" stop-color="#b8743a"/>
+    </linearGradient>
+    <linearGradient id="m1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c6a5f"/><stop offset="1" stop-color="#12292a"/>
+    </linearGradient>
+    <linearGradient id="m2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f4a47"/><stop offset="1" stop-color="#0d1c1f"/>
+    </linearGradient>
+    <linearGradient id="wv" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c6a5f" stop-opacity=".9"/><stop offset="1" stop-color="#0d1c1f"/>
+    </linearGradient>
+    <radialGradient id="b1"><stop offset="0" stop-color="#2c6a5f" stop-opacity=".55"/><stop offset="1" stop-color="#2c6a5f" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b2"><stop offset="0" stop-color="#1b5a57" stop-opacity=".5"/><stop offset="1" stop-color="#1b5a57" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#d4914f" stop-opacity=".45"/><stop offset="1" stop-color="#d4914f" stop-opacity="0"/></radialGradient>
+    <clipPath id="clip"><rect width="1200" height="360" rx="24"/></clipPath>
+    <style>
+      .a1{animation:f1 16s ease-in-out infinite}
+      .a2{animation:f2 20s ease-in-out infinite}
+      @keyframes f1{0%,100%{transform:translate(0,0)}50%{transform:translate(160px,30px)}}
+      @keyframes f2{0%,100%{transform:translate(0,0)}50%{transform:translate(-180px,-20px)}}
+      .pulse{transform-origin:1010px 110px;animation:pulse 6s ease-in-out infinite}
+      @keyframes pulse{0%,100%{transform:scale(1);opacity:.9}50%{transform:scale(1.15);opacity:1}}
+      .cloud{animation:drift 22s ease-in-out infinite alternate}
+      .cloud2{animation:drift 28s ease-in-out infinite alternate-reverse}
+      @keyframes drift{from{transform:translateX(-40px)}to{transform:translateX(40px)}}
+      .wave1{animation:wave 14s linear infinite}
+      .wave2{animation:wave 22s linear infinite reverse}
+      @keyframes wave{from{transform:translateX(0)}to{transform:translateX(-300px)}}
+      .name{font:700 88px/1 Georgia,"Times New Roman",ui-serif,serif;letter-spacing:1px}
+      .sub{font:500 16px/1 ui-monospace,SFMono-Regular,"JetBrains Mono",Consolas,monospace;letter-spacing:4px;fill:#a9c2b4}
+      .tag{font:600 13px/1 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:4px;fill:#d4914f}
+      .rise{opacity:0;animation:rise 1.2s cubic-bezier(.2,.8,.2,1) forwards}
+      .d1{animation-delay:.15s}.d2{animation-delay:.45s}.d3{animation-delay:.75s}
+      @keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+      .blink{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .star{animation:tw 3.5s ease-in-out infinite}
+      @keyframes tw{0%,100%{opacity:.15}50%{opacity:.85}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="360" fill="url(#bg)"/>
+    <circle class="a1" cx="200" cy="140" r="320" fill="url(#b1)"/>
+    <circle class="a2" cx="760" cy="300" r="300" fill="url(#b2)"/>
+
+    <g fill="#f3e6cc">
+      <circle class="star" cx="90" cy="54" r="1.4"/>
+      <circle class="star" style="animation-delay:1s" cx="320" cy="34" r="1.1"/>
+      <circle class="star" style="animation-delay:2s" cx="560" cy="44" r="1.3"/>
+      <circle class="star" style="animation-delay:.6s" cx="760" cy="30" r="1"/>
+      <circle class="star" style="animation-delay:1.7s" cx="1140" cy="60" r="1.2"/>
+      <circle class="star" style="animation-delay:2.6s" cx="420" cy="90" r=".9"/>
+    </g>
+
+    <!-- sun -->
+    <circle class="pulse" cx="1010" cy="110" r="150" fill="url(#glow)"/>
+    <circle cx="1010" cy="110" r="52" fill="url(#sun)"/>
+
+    <!-- copper cloud streaks -->
+    <g class="cloud" stroke="#d4914f" stroke-linecap="round">
+      <path d="M840 74h120" stroke-width="3" opacity=".8"/>
+      <path d="M870 64q22-8 44 0" stroke-width="3" opacity=".8"/>
+    </g>
+    <g class="cloud2" stroke="#d4914f" stroke-linecap="round" opacity=".6">
+      <path d="M120 120h90" stroke-width="2.5"/>
+      <path d="M1060 176h96" stroke-width="2.5"/>
+    </g>
+
+    <!-- mountains (sides, leaving the center clear for text) -->
+    <path d="M0 360V220L80 170 140 205 210 130 280 200 330 230 420 360Z" fill="url(#m2)"/>
+    <path d="M0 360V280L120 220 200 260 260 235 380 360Z" fill="url(#m1)"/>
+    <path d="M182 158l28-28 26 26" stroke="#6f9a7a" stroke-opacity=".6" stroke-width="2"/>
+    <path d="M1200 360V220L1120 170 1060 205 990 130 920 200 870 230 780 360Z" fill="url(#m2)"/>
+    <path d="M1200 360V280L1080 220 1000 260 940 235 820 360Z" fill="url(#m1)"/>
+    <path d="M964 156l26-26 28 28" stroke="#6f9a7a" stroke-opacity=".6" stroke-width="2"/>
+
+    <!-- waves -->
+    <g class="wave2" opacity=".55">
+      <path d="M0 318Q75 300 150 318T300 318T450 318T600 318T750 318T900 318T1050 318T1200 318T1350 318T1500 318T1650 318T1800 318V360H0Z" fill="#1b3d3d"/>
+    </g>
+    <g class="wave1">
+      <path d="M0 332Q75 314 150 332T300 332T450 332T600 332T750 332T900 332T1050 332T1200 332T1350 332T1500 332T1650 332T1800 332V360H0Z" fill="url(#wv)"/>
+      <path d="M0 332Q75 314 150 332T300 332T450 332T600 332T750 332T900 332T1050 332T1200 332T1350 332T1500 332T1650 332T1800 332" stroke="#6f9a7a" stroke-opacity=".6" stroke-width="1.5"/>
+    </g>
+
+    <!-- pine sprig -->
+    <g transform="translate(600 306)" stroke="#6f9a7a" stroke-width="2.5" stroke-linecap="round" class="rise d3">
+      <path d="M0 26V-22"/>
+      <path d="M0-14l-10-8M0-14l10-8M0-4l-13-9M0-4l13-9M0 6l-16-10M0 6l16-10M0 16l-18-10M0 16l18-10"/>
+    </g>
+
+    <text class="tag rise" x="600" y="96" text-anchor="middle">— HELLO WORLD, I'M —</text>
+    <text class="name rise d1" x="600" y="190" text-anchor="middle" fill="url(#txt)">Anferomol</text>
+    <text class="sub rise d2" x="600" y="238" text-anchor="middle">BUILDER · LEARNER · TECH ENTHUSIAST<tspan class="blink" fill="#d4914f">_</tspan></text>
+    <rect class="rise d3" x="440" y="262" width="320" height="1.5" fill="url(#line)"/>
+
+    <rect x="1.5" y="1.5" width="1197" height="357" rx="22.5" stroke="#2c6a5f" stroke-opacity=".7" stroke-width="3"/>
+  </g>
+</svg>
